@@ -1,0 +1,2809 @@
+{
+	"embed": {
+		"footer": "Requested by %s"
+	},
+	"errors": {
+		"title": "Error",
+		"additional": "Additional info:",
+		"unknown": "{EMOTE_WARNING_C} Something went wrong!\nReport this error to bot's Owner/Developer in support server!",
+		"error": "{EMOTE_WARNING_C} Something went wrong!",
+		"database": "{EMOTE_WARNING_C} Database error, changes were not recorded or only partially.",
+		"missing_perms": {
+			"self": "I lack the permission `{permission}` for this.",
+			"self_channel": "I lack the permission `{permission}` in the channel {channel} to do this.",
+			"other": "You lack the permission `{permission}` for this command.",
+			"other_channel": "You lack the permission `{permission}` in the channel {channel} to do this command."
+		},
+		"no_send_perm": "I have no permission to send messages in your channel. Please, fix!",
+		"no_channel": "You don't own/has any voice channel.",
+		"command": {
+			"not_owner": "Only an owner may run this command.",
+			"nsfw": "This command may only be used in NSFW text channels!",
+			"guild_only": "This command cannot be used in private messages! Use this command in server, where I am."
+		},
+		"cooldown": {
+			"cooldown_command": "That command is on cooldown for {time} more seconds",
+			"cooldown_button": "This button is on cooldown for {time} more seconds",
+			"channel": "in this channel",
+			"guild": "in this server",
+			"shard": "on this shard",
+			"global": "globally"
+		},
+		"formatter": {
+			"no_time_provided": "No time provided using pattern",
+			"except_seconds": "Provided time can't be specified in seconds",
+			"no_multip": "Could not get time multiplication from given character",
+			"parse_long": "Could not parse provided time due to overflow or other error",
+			"long_overflow": "Provided time too big, long overflow"
+		},
+		"interaction": {
+			"no_values": "None of the values has been selected.",
+			"no_access": "You cannot perform this action because you do not have the required access."
+		},
+		"timed_out": "Timed out",
+		"proof_type": "Incorrect proof file type provided. Only .png and .jpg/.jpeg are accepted.",
+		"proof_size": "The size of the proof file cannot be larger than 4 MB."
+	},
+	"misc": {
+		"and": "and",
+		"language": "English (en)",
+		"unknown": "Unknown",
+		"command": {
+			"help": "no help available",
+			"usage": "no usage description"
+		},
+		"time": {
+			"s1": "second",
+			"s2": "seconds",
+			"s5": "seconds",
+			"m1": "minute",
+			"m2": "minutes",
+			"m5": "minutes",
+			"h1": "hour",
+			"h2": "hours",
+			"h5": "hours",
+			"d1": "day",
+			"d2": "days",
+			"d5": "days",
+			"w1": "week",
+			"w2": "weeks",
+			"w5": "weeks"
+		},
+		"permanently": "permanently",
+		"temporary": "until %s",
+		"ban_expired": "Temporary ban expired",
+		"temp_msg": "\n-# This message will be deleted in 20 seconds."
+	},
+	"imagegen": {
+		"profile": {
+			"text": "TEXT",
+			"voice": "VOICE",
+			"global_xp": "Global XP"
+		}
+	},
+	"modules": {
+		"webhook": "Webhook commands",
+		"language": "Language commands",
+		"moderation": "Moderation category",
+		"verification": "Verification",
+		"ticketing": "Tickets",
+		"voice": "Custom voice-channels",
+		"report": "Report function",
+		"roles": "Role management",
+		"strikes": "Strike punishments",
+		"games": "Games",
+		"levels": "Leveling",
+		"module_disabled": "This command(module) is disabled."
+	},
+	"role_type": {
+		"assign": "Assignable",
+		"toggle": "Toggleable",
+		"custom": "Custom"
+	},
+	"case_type": {
+		"ban": "Ban",
+		"unban": "Unban",
+		"mute": "Mute",
+		"unmute": "Unmute",
+		"kick": "Kick",
+		"strike1": "Strike [1]",
+		"strike2": "Strike [2]",
+		"strike3": "Strike [3]",
+		"blacklist": "Blacklist",
+		"game_strike": "Game strike"
+	},
+	"punish_action": {
+		"mute": "Time out",
+		"kick": "Kick",
+		"ban": "Ban",
+		"remove_role": "Remove role",
+		"add_role": "Add role",
+		"temp_role": "Temp role"
+	},
+	"ticket": {
+		"close": "Close",
+		"claim": "Claim",
+		"claimed": "Claimed by: %s",
+		"unclaim": "Unclaim",
+		"cancel": "Cancel",
+		"rename": "Rename",
+		"role": "role",
+		"role_approve": "Approve all",
+		"role_title": "Requested roles",
+		"role_header": "**provide the following information:**",
+		"role_proof": "Proofs as requested by moderator.",
+		"role_footer": "*After the issuance of roles - the request will be deleted.*\n*Do not close the ticket, wait for the moderator!*",
+		"autoclose_cancel": "The automated close on this ticket has been cancelled."
+	},
+	"logger_embed": {
+		"pm": {
+			"banned_temp": "You were banned from {guild} server for {time}.",
+			"banned_perm": "You were permanently banned from {guild} server.",
+			"banned": "You were banned from {guild} server.",
+			"kicked": "You were kicked from {guild} server.",
+			"muted": "You were timed out in {guild} server.",
+			"strike": "You received %s in {guild} server.",
+			"strike1": "one warning",
+			"strike2": "two warnings",
+			"strike3": "three warnings",
+			"button_strikes": "View active strikes",
+			"delstrike": "%s warning removed from you in by server's {guild} moderation.",
+			"appeal": "\nAppeal this action by following this link:\n> %s",
+			"reason_mute": "Reason changed for a mute issued by %s server's moderation at %s.",
+			"reason_strike": "Reason changed for a warning issued by %s server's moderation at %s.",
+			"gamestrike": "You received Game strike in [__#%s__](%s) in {guild} server."
+		},
+		"inform": {
+			"0": "Do not dm offender",
+			"1": "Send server and action",
+			"2": "Send server, action, reason and duration",
+			"3": "Send server, action, reason, duration and moderator"
+		}
+	},
+	"logger": {
+		"user": "User",
+		"enforcer": "Done by",
+		"target": "Target",
+		"reason": "Reason",
+		"duration": "Duration",
+		"moderation": {
+			"name": "Moderation logs",
+			"mod": "Moderator",
+			"case": "Case %s | %s | %s",
+			"success": "Success rate",
+			"timeout": "Member timed out | %s",
+			"remove_timeout": "Timeout removed | %s",
+			"log_url": "\n[*View log (press)*](%s)",
+			"ban": {
+				"title": "Member banned | %s",
+				"short_title": "Ban info",
+				"short_info": "*Username:* `{username}`\n*Ban reason:* `{reason}`",
+				"sync": "Synced Ban | %s"
+			},
+			"unban": {
+				"title": "Ban removed | %s",
+				"ban_reason": "Banned for",
+				"title_expired": "Ban expired | %s",
+				"sync": "Synced Unban | %s"
+			},
+			"kick": {
+				"title": "Member kicked | %s",
+				"sync": "Synced Kick | %s"
+			},
+			"mute": {
+				"short_title": "Mute info",
+				"short_info": "*Username:* `{username}`\n*Is timed out until:* `{until}`"
+			},
+			"unmute": {
+				"mute_reason": "Muted for"
+			},
+			"strike": {
+				"cleared": "Strikes cleared | %s",
+				"deleted": "Strike deleted | %s",
+				"amount": "Amount",
+				"case": "Case ID"
+			},
+			"change": {
+				"reason": "Case %s | Reason changed | %s",
+				"duration": "Case %s | Duration changed | %s"
+			},
+			"blacklist": {
+				"added": "Blacklisted | %s",
+				"removed": "Removed from blacklist | %s",
+				"group": "Group"
+			},
+			"game": {
+				"strike": "Game strike | %s",
+				"strikes": "Strike count"
+			},
+			"purge": "Messages purged"
+		},
+		"group": {
+			"name": "Group logs",
+			"title": "Group '%s' (#%s)",
+			"master": "Main server's ID: ",
+			"guild": "Implicated server",
+			"created": "Created new Group",
+			"deleted": "Deleted the Group",
+			"join": "This server joined the Group",
+			"add": "This server was added to the Group",
+			"leave": "This server left the Group",
+			"joined": "Server joined your Group",
+			"added": "Server was added to your Group",
+			"left": "Server left your Group",
+			"removed": "Server was removed from your Group",
+			"renamed": "Group was renamed",
+			"oldname": "Previous Group's name"
+		},
+		"verify": {
+			"name": "Verification logs",
+			"added": "User verified | %s",
+			"discord": "Discord account"
+		},
+		"ticket": {
+			"name": "Ticket logs",
+			"closed_title": "Ticket Closed",
+			"closed_value": "Ticket Name: {name}\nClosed By: {closed}\nCreated By: {created}\nClaimed By: {claimed}\n\n*If available, ticket's transcript is attached to this message.*",
+			"closed_pm": "Ticket closed at **{guild}** server.\n\n**Closed By**: {closed}\n**Close date**: {time}\n**Close Reason**: {reason}\n\n*If available, ticket's transcript is attached to this message.*\n*To view .html file - download it and open in any browser.*",
+			"autoclosed": "No response, autoclosed",
+			"unclaimed": "UnClaimed",
+			"roles_title": "Roles issued | %s",
+			"roles": "Assigned roles",
+			"created": "Ticket Created",
+			"ticket_name": "Ticket's name"
+		},
+		"role": {
+			"name": "Role logs",
+			"rank": "Rank",
+			"role": "Role",
+			"roles": "Roles",
+			"added": "Role added to the user",
+			"removed": "Role removed from the user",
+			"added_m": "Roles added to the user",
+			"removed_m": "Roles removed from the user",
+			"removed_all": "Role was removed from all users",
+			"modified": "User roles modified",
+			"temp_added": "Role added temporary to user",
+			"temp_updated": "Temporary role updated for user",
+			"temp_removed": "Temporary role removed from user"
+		},
+		"guild": {
+			"name": "Server logs",
+			"update": "Guild settings updated",
+			"emoji_create": "Emoji created",
+			"emoji_update": "Emoji updated",
+			"emoji_delete": "Emoji deleted",
+			"sticker_create": "Sticker created",
+			"sticker_update": "Sticker updated",
+			"sticker_delete": "Sticker deleted",
+			"role_create": "Role created | %s",
+			"role_update": "Role updated | %s",
+			"role_delete": "Role deleted | %s"
+		},
+		"message": {
+			"name": "Message logs",
+			"delete": "Message deleted",
+			"bulk_delete": "Bulk messages deleted",
+			"update": "Message updated",
+			"channel": "Channel",
+			"author": "Author",
+			"content": "Content",
+			"old_content": "Previous content",
+			"new_content": "New content",
+			"count": "Message count"
+		},
+		"member": {
+			"name": "Member logs",
+			"join": "Member joined | %s",
+			"leave": "Member left | %s",
+			"role_change": "Member's role changed",
+			"nick_change": "Member changed nickname | %s",
+			"roles": "Roles",
+			"joined_at": "Joined at"
+		},
+		"voice": {
+			"name": "Voice logs",
+			"join": "Joined voice channel | %s",
+			"leave": "Left voice channel | %s",
+			"switch": "Switched voice channel | %s",
+			"change": "Voice status change | %s",
+			"mute": "Muted",
+			"deaf": "Deafen"
+		},
+		"channel": {
+			"name": "Channel logs",
+			"create": "Channel created | %s",
+			"update": "Channel updated | %s",
+			"delete": "Channel deleted | %s",
+			"override_create": "Permission overwrite created",
+			"override_update": "Permission overwrite updated",
+			"override_delete": "Permission overwrite deleted"
+		},
+		"level": {
+			"name": "Leveling logs",
+			"level_up": "Level up!",
+			"msg_random": [
+				"GG {user}, you just reached **{type} Level {level}**",
+				"Eyy {user}, you just leveled up! You're now **{type} Level {level}**",
+				"\uD83C\uDF1F You just reached **{type} Level {level}** {user}! Congrats \uD83C\uDF1F",
+				"You're on \uD83D\uDD25 {user}, you've just reached **{type} Level {level}**",
+				"Congratulations {user} \uD83C\uDF89 You just leveled up! You're now **{type} Level {level}**"
+			]
+		},
+		"bot": {
+			"name": "Bot settings logs",
+			"access_added": "Access granted to target",
+			"access_removed": "Access removed from target",
+			"access_level": "Access level",
+			"module": "Module",
+			"module_enabled": "Module enabled",
+			"module_disabled": "Module disabled"
+		},
+		"helper": {
+			"banned": "User was banned in %s",
+			"unbanned": "User was unbanned in %s",
+			"default": "Action performed in %s",
+			"leave_guild": "Bot left server %s",
+			"guild_id": "Server ID"
+		},
+		"keys": {
+			"name": "Name",
+			"type": "Type",
+			"region": "Region",
+			"topic": "Channel topic",
+			"bitrate": "Bitrate",
+			"user_limit": "User limit",
+			"nsfw": "NSFW",
+			"rate_limit_per_user": "Slowmode",
+			"color": "Color",
+			"hoist": "Hoisted",
+			"mentionable": "Mentionable",
+			"afk_channel_id": "AFK channel",
+			"afk_timeout": "AFK timeout",
+			"explicit_content_filter": "Explicit content filter",
+			"icon_hash": "Server icon",
+			"mfa_level": "MFA level",
+			"default_message_notifications": "Message notifications",
+			"owner_id": "Owner",
+			"splash_hash": "Splash image",
+			"system_channel_id": "System messages channel",
+			"rules_channel_id": "Rules channel",
+			"public_updates_channel_id": "Community updates channel",
+			"description": "Description",
+			"nick": "Nickname",
+			"add_roles": "Roles assigned",
+			"remove_roles": "Roles removed",
+			"add_permissions": "Granted permissions",
+			"remove_permissions": "Removed permissions",
+			"permission_overwrites": "Channel overwrites",
+			"allow": "Allowed",
+			"deny": "Denied",
+			"communication_disabled_until": "Timeout",
+			"preferred_locale": "Community language"
+		}
+	},
+	"bot": {
+		"owner": {
+			"eval": {
+				"help": "Evaluates code using Groovy",
+				"usage": "eval <code>",
+				"code": {
+					"name": "code",
+					"help": "Enter your code to evaluate, args - bot, event, jda, guild, client, helper"
+				},
+				"time": "Evaluated in {time}ms",
+				"input": "Input:",
+				"output": "Output:"
+			},
+			"shutdown": {
+				"help": "Safely shuts down the bot",
+				"usage": "shutdown"
+			},
+			"generate": {
+				"help": "Generates json file with information about all bot's public commands",
+				"usage": "generate",
+				"error": "Unknown error, see below."
+			},
+			"forceaccess": {
+				"help": "Force role/user access in selected server",
+				"usage": "forceaccess <Server ID> <@Role/@User> <Access level>",
+				"server": {
+					"name": "server",
+					"help": "Enter server's ID"
+				},
+				"type": {
+					"name": "type",
+					"help": "Is target role or user?"
+				},
+				"target": {
+					"name": "target",
+					"help": "Enter target's ID"
+				},
+				"access_level": {
+					"name": "access_level",
+					"help": "Grant the target selected access level"
+				},
+				"no_guild": "Selected server not found.",
+				"done": "Assigned {target} access {level}."
+			},
+			"checkaccess": {
+				"help": "Check user's access in selected server",
+				"usage": "checkaccess <Server ID> <@User>",
+				"server": {
+					"name": "server",
+					"help": "Enter server's ID"
+				},
+				"user": {
+					"name": "user",
+					"help": "Enter user's ID"
+				},
+				"no_guild": "Selected server not found."
+			},
+			"debug": {
+				"help": "Returns logs file",
+				"usage": "debug [debug logs?] [date]",
+				"debug_logs": {
+					"name": "debug_logs",
+					"help": "Debug logs"
+				},
+				"date": {
+					"name": "date",
+					"help": "Formated as yyyy-MM-dd"
+				}
+			},
+			"message": {
+				"help": "Send text message",
+				"usage": "message <Channel ID> <text>",
+				"channel_id": {
+					"name": "channel_id",
+					"help": "Enter channel ID"
+				},
+				"content": {
+					"name": "content",
+					"help": "Enter text"
+				}
+			},
+			"setstatus": {
+				"help": "Set bot status",
+				"usage": "setstatus <Type> <message> [URL]",
+				"type": {
+					"name": "type",
+					"help": "Select activity type"
+				},
+				"text": {
+					"name": "text",
+					"help": "Enter activity message"
+				},
+				"url": {
+					"name": "url",
+					"help": "Enter url for 'streaming' activity"
+				},
+				"invalid_url": "Invalid URL provided.",
+				"clear": "Activity cleared.",
+				"set": "%s activity set.\n> %s"
+			},
+			"bot_blacklist": {
+				"help": "Manage bot's blacklist",
+				"usage": "bot_blacklist <add?> <ID>",
+				"add": {
+					"name": "add",
+					"help": "Add (or remove)?"
+				},
+				"id": {
+					"name": "id",
+					"help": "Enter user or guild ID"
+				}
+			},
+			"experience": {
+				"help": "Manage user exp in server and overall",
+				"usage": "experience <choice>",
+				"server": {
+					"name": "server",
+					"help": "Enter server ID"
+				},
+				"user": {
+					"name": "user",
+					"help": "Enter user ID"
+				},
+				"action": {
+					"name": "action",
+					"help": "What action to perform"
+				},
+				"amount": {
+					"name": "amount",
+					"help": "Enter exp amount to add/remove"
+				}
+			}
+		},
+		"guild": {
+			"setup": {
+				"help": "Setup menu for this server",
+				"color": {
+					"help": "Set embed color accent",
+					"usage": "color <______ | __,__,__ | random>",
+					"color": {
+						"name": "color",
+						"help": "Enter color, either hex (1234AC) or RGB (12,34,250)"
+					},
+					"no_color": "Incorrect color string provided, check `/help`",
+					"done": "Embed color updated to `{color}`"
+				},
+				"appeal": {
+					"help": "Set appeal link, that will be send to users before getting banned/kicked",
+					"usage": "appeal <URL link>",
+					"link": {
+						"name": "link",
+						"help": "Enter appeal URL link"
+					},
+					"not_valid": "Provided URL link is not valid.",
+					"done": "Appeal link set to `{link}`"
+				},
+				"report": {
+					"help": "Assign channel for receiving user reports/complains",
+					"usage": "report <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel to which to send complaints"
+					},
+					"cant_send": "I cant send messages in selected channel! Check my permissions or select other channel.",
+					"done": "Selected {channel} to receive user reports."
+				},
+				"voice": {
+					"help": "Manage custom voice channel settings",
+					"create": {
+						"help": "Create custom voice channels category",
+						"usage": "voice create",
+						"category_name": "Voice Channels",
+						"channel_name": "★ Join to create",
+						"done": "Successfully created channel {channel}!"
+					},
+					"select": {
+						"help": "Select channel to be used for custom vc creation",
+						"usage": "voice select <#Channel>",
+						"channel": {
+							"name": "channel",
+							"help": "Select voice channel"
+						},
+						"no_category": "Selected voice channel has no category.",
+						"done": "Successfully selected channel {channel}!"
+					},
+					"panel": {
+						"help": "Create panel for controlling custom VoiceChannels",
+						"usage": "voice panel <#Channel>",
+						"channel": {
+							"name": "channel",
+							"help": "Select channel in which to create the panel"
+						},
+						"lock": "Lock",
+						"unlock": "Unlock",
+						"ghost": "Ghost",
+						"unghost": "Unghost",
+						"name": "Rename",
+						"limit": "Set limit",
+						"permit": "Permit",
+						"reject": "Reject",
+						"perms": "Permissions",
+						"delete": "Delete channel",
+						"embed_title": "Personal voice channels",
+						"embed_value": "To create your personal voice channel, join <#{id}>.\n\nYou can control your voice channel either by pressing buttons bellow or using my slash commands.",
+						"done": "Panel created in {channel}!"
+					},
+					"name": {
+						"help": "Sets default name for custom VoiceChannels",
+						"usage": "voice name <Default channel name>",
+						"name": {
+							"name": "name",
+							"help": "Enter string 1 <> 100 symbols, supports '{name}'"
+						},
+						"invalid_range": "Channel name must be in range from 1 to 100 symbols and not blank.",
+						"done": "Successfully changed default VoiceChannels name to `{value}`!"
+					},
+					"limit": {
+						"help": "Sets default user limit for custom VoiceChannels",
+						"usage": "voice limit <Default channel limit>",
+						"limit": {
+							"name": "limit",
+							"help": "Enter integer 0 <> 99"
+						},
+						"done": "Successfully changed default VoiceChannels limit to `{value}`!"
+					}
+				},
+				"strikes": {
+					"help": "Manage strike settings",
+					"usage": "strikes [expire time] [cooldown time]",
+					"expires_after": {
+						"name": "expires_after",
+						"help": "Enter time in days, after which strikes expires"
+					},
+					"cooldown": {
+						"name": "cooldown",
+						"help": "Enter time in minutes, cooldown between two strikes for the user"
+					},
+					"no_options": "No options provided.",
+					"embed_title": "**Strike settings changed.**\n",
+					"expires_changed": "\n> One strike expires after `%s` day/-s.",
+					"cooldown_changed": "\n> Cooldown between strikes set to `%s` minute/-s."
+				},
+				"dm_inform": {
+					"help": "Set what information is sent to offender when action is performed",
+					"usage": "dm_inform <action> <level>",
+					"action": {
+						"name": "action",
+						"help": "Select action"
+					},
+					"level": {
+						"name": "level",
+						"help": "Select what information will be sent"
+					},
+					"unknown": "Unknown action received.",
+					"done": "On `%s` action - %s"
+				},
+				"role_whitelist": {
+					"help": "Only allow \"whitelisted\" roles to be managed with /role command",
+					"usage": "role_whitelist <enable?>",
+					"enable": {
+						"name": "enable",
+						"help": "Enable role \"whitelist\""
+					},
+					"done": "Set role limiting - %s"
+				},
+				"levels": {
+					"help": "Manage leveling settings (to view settings - don't select options)",
+					"usage": "levels [enable?] [voice enable?]",
+					"enable": {
+						"name": "enable",
+						"help": "Enable leveling in this server"
+					},
+					"voice_enable": {
+						"name": "voice_enable",
+						"help": "Enable levels for voice activity"
+					},
+					"embed_view": "**Leveling settings**",
+					"embed_changes": "**Updated leveling settings**",
+					"changed_enabled": "\n> Enabled: %s",
+					"changed_voice": "\n> Voice activity xp enabled: %s"
+				}
+			},
+			"module": {
+				"help": "Manage modules",
+				"show": {
+					"help": "Show current modules status",
+					"usage": "show",
+					"embed": {
+						"title": "Module status",
+						"value": "*To enable/disable a module use `/module enable` or `/module disable`*",
+						"field": "Enabled | Module"
+					}
+				},
+				"disable": {
+					"help": "Disable module",
+					"usage": "disable",
+					"embed_title": "Disable module",
+					"embed_value": "Select module from list bellow to be disabled.",
+					"select": "Select module",
+					"none": "__All modules are already disabled!__",
+					"already": "Module already disabled!",
+					"done": "Module {module} successfully disabled."
+				},
+				"enable": {
+					"help": "Enable module",
+					"usage": "enable",
+					"embed_title": "Enable module",
+					"embed_value": "Select module from list bellow to be enabled.",
+					"select": "Select module",
+					"none": "__All modules are already enabled!__",
+					"already": "Module already enabled!",
+					"done": "Module {module} successfully enabled."
+				}
+			},
+			"access": {
+				"help": "Manage access to command use",
+				"add": {
+					"help": "Allow access",
+					"role": {
+						"help": "Add server's role an access",
+						"usage": "add role <@Role | ID> <Access level>",
+						"role": {
+							"name": "role",
+							"help": "Mention role"
+						},
+						"access_level": {
+							"name": "access_level",
+							"help": "Grant the role selected access level"
+						},
+						"already": "Role already has some access!",
+						"done": "Successfully assigned {role} access `{level}`!"
+					},
+					"operator": {
+						"help": "Add Operator access to user",
+						"usage": "add operator <@User | ID>",
+						"user": {
+							"name": "user",
+							"help": "Mention server member"
+						},
+						"done": "Successfully assigned {user} Operator access!"
+					},
+					"no_role": "Role not found.",
+					"no_member": "Member not found.",
+					"role_already": "This role already has access. Remove it and try again.",
+					"user_already": "This user already has access. Remove it and try again.",
+					"incorrect_role": "Selected role can't be set as Moderator.",
+					"incorrect_user": "Selected member can't be set as Operator."
+				},
+				"remove": {
+					"help": "Remove access",
+					"role": {
+						"help": "Remove any access level from role",
+						"usage": "remove role <@Role | ID>",
+						"role": {
+							"name": "role",
+							"help": "Mention role"
+						},
+						"no_access": "Selected role lacks any access level.",
+						"done": "Successfully removed from {role} access `{level}`!"
+					},
+					"operator": {
+						"help": "Remove Operator access from user",
+						"usage": "remove operator <@User | ID>",
+						"user": {
+							"name": "user",
+							"help": "Mention user"
+						},
+						"not_operator": "Selected user has no Operator access",
+						"done": "Successfully removed from {user} Operator access!"
+					},
+					"no_role": "Role not found.",
+					"no_user": "User not found."
+				},
+				"view": {
+					"help": "View who has access",
+					"usage": "view",
+					"embed": {
+						"title": "Roles with access",
+						"none_found": "*None of the roles/users has any access.*",
+						"none": "None",
+						"exempt": "**Ban exemption roles:**",
+						"helper": "**Helper roles:**",
+						"mod": "**Moderator roles:**",
+						"operator": "**Operators:**"
+					}
+				}
+			},
+			"logs": {
+				"help": "Log server events",
+				"manage": {
+					"help": "Manage logging channels",
+					"enable": {
+						"help": "Enable logging",
+						"usage": "manage enable <Type> <#Channel>",
+						"type": {
+							"name": "type",
+							"help": "Select event type"
+						},
+						"channel": {
+							"name": "channel",
+							"help": "Select channel where to log actions"
+						},
+						"no_channel": "Provided channel not found or is not of Text type.\nEither lack permission to view it or select other channel.",
+						"as_log": "This channel is selected as a log channel for %s events.",
+						"done": "Successfully set %s for logging %s!"
+					},
+					"disable": {
+						"help": "Disable logging",
+						"usage": "manage disable <Type>",
+						"type": {
+							"name": "type",
+							"help": "Select event type"
+						},
+						"done_all": "Disabled logging for all events!",
+						"done": "Disabled logging for %s events!"
+					},
+					"view": {
+						"help": "View logging settings",
+						"usage": "manage view",
+						"title": "Currently logging",
+						"none": "**None**\n\n*Use `/logs enable` to setup logging*"
+					}
+				},
+				"exemptions": {
+					"help": "Manage logging exemptions",
+					"add": {
+						"help": "Exclude channel from logging",
+						"usage": "exemptions add <#Channel>",
+						"target": {
+							"name": "target",
+							"help": "Select channel or category"
+						},
+						"not_found": "Channel or Category not found or can't be selected.",
+						"already": "Target is already excluded from logging.",
+						"done": "Done! Target `%s` excluded from future logging (deleted messages)."
+					},
+					"remove": {
+						"help": "Remove target from logging exemption",
+						"usage": "exemptions remove <ID>",
+						"id": {
+							"name": "id",
+							"help": "Enter target's (channel/category) ID"
+						},
+						"not_found": "Selected target is not in the exemptions list.",
+						"done": "Done! Target `%s` will be logged."
+					},
+					"view": {
+						"help": "View logging exemptions",
+						"usage": "exemptions view",
+						"title": "Excluded channels/categories",
+						"none": "*None*"
+					}
+				}
+			},
+			"autopunish": {
+				"help": "Manage auto-punishments for strikes",
+				"usage": "autopunish",
+				"add": {
+					"help": "Add new action",
+					"usage": "add <Strike count> [Kick?] [Mute duration] [Ban duration] [Add @Role] [Remove @Role]",
+					"strike-count": {
+						"name": "strike-count",
+						"help": "At which amount of strikes to perform this action"
+					},
+					"kick": {
+						"name": "kick",
+						"help": "Kick user?"
+					},
+					"mute": {
+						"name": "mute",
+						"help": "Enter mute duration"
+					},
+					"ban": {
+						"name": "ban",
+						"help": "Enter ban duration (0 - permanent)"
+					},
+					"remove-role": {
+						"name": "remove-role",
+						"help": "Remove role from the user"
+					},
+					"add-role": {
+						"name": "add-role",
+						"help": "Add role to the user"
+					},
+					"temp-role": {
+						"name": "temp-role",
+						"help": "Add temp role to the user"
+					},
+					"temp-duration": {
+						"name": "temp-duration",
+						"help": "Set temp role duration"
+					},
+					"one_option": "Only one of this options can be used: Kick, Mute or Ban.",
+					"ban_kick_role": "Can't give or remove role if options Mute or Ban are used.",
+					"same_role": "Can't give or remove same roles.",
+					"not_zero": "Mute/Temp role duration can't be zero.",
+					"incorrect_role": "I can't interact with provided role.",
+					"no_duration": "Duration for temp role is not set.",
+					"exists": "Action already exists. Remove it and re-add.",
+					"empty": "No options selected.",
+					"title": "Created action for receiving `%d` strikes:\n\n",
+					"vkick": "User will be kicked.\n",
+					"vmute": "User will be muted for %s.\n",
+					"vban": "User will be banned %s.\n",
+					"for": "for",
+					"vremove": "Role `%s` will be removed.\n",
+					"vadd": "Role `%s` will be added.\n",
+					"vtempadd": "Role `%s` will be temporally added for %s.\n"
+				},
+				"remove": {
+					"help": "Remove actions",
+					"usage": "remove <Strike count>",
+					"strike-count": {
+						"name": "strike-count",
+						"help": "At which amount of strikes to perform this action"
+					},
+					"not_found": "There is no action set for this count.",
+					"done": "Removed action for strike count %d."
+				},
+				"update": {
+					"help": "Update existing action",
+					"usage": "update <Strike count> <Type> [duration/role]"
+				},
+				"view": {
+					"help": "View all actions",
+					"usage": "view",
+					"empty": "There are no actions."
+				}
+			},
+			"persistent": {
+				"help": "Setup persistent roles",
+				"usage": "persistent",
+				"add": {
+					"help": "Add persistent role",
+					"usage": "add <@Role>",
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"incorrect_role": "Incorrect role provided.",
+					"limit": "Reached limit amount of persistent roles.",
+					"done": "Role %s set as persistent role.\nIf a user with this role leaves the server and enters back, he will automatically be assigned this role."
+				},
+				"remove": {
+					"help": "Remove persistent role",
+					"usage": "remove <@Role>",
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"done": "Role %s removed as persistent role."
+				},
+				"view": {
+					"help": "View persistent roles",
+					"usage": "view",
+					"empty": "No roles.",
+					"title": "Persistent roles"
+				}
+			}
+		},
+		"voice": {
+			"listener": {
+				"default_name": "{user}'s channel",
+				"cooldown": "Creating voice channels to quickly, wait a bit! Or you already own maximum VoiceChannels.",
+				"failed": "Failed to create the voice channel.\n> %s",
+				"not_in_voice": "You are not connected to any voice channel.",
+				"panel": {
+					"lock": "Channel locked!",
+					"unlock": "Channel unlocked!",
+					"ghost": "Channel ghosted!",
+					"unghost": "Channel unghosted!",
+					"modal": "Provide information",
+					"name_label": "Channel name",
+					"name_done": "Channel renamed to {name}!",
+					"limit_label": "Channel limit",
+					"limit_done": "Channel user limit set to {limit}!",
+					"permit_label": "Select members and/or roles to which grand access to your channel.",
+					"permit_done": "Successfully permitted {targets} to connect to your channel!",
+					"reject_label": "Select members and/or roles to whom deny access to your channel.",
+					"reject_done": "Successfully rejected {targets} from connecting to your channel!",
+					"not_self": "You can't add/remove yourself or me.",
+					"perms": {
+						"title": "Channel permissions for `{channel}`",
+						"field": "**Can View | Can Join | Holder**",
+						"everyone": "Everyone",
+						"roles": "**Roles:**",
+						"members": "**Members:**",
+						"none": "*None*"
+					},
+					"delete": "Channel deleted!"
+				}
+			},
+			"voice": {
+				"help": "Private VoiceChannels management",
+				"lock": {
+					"help": "Locks your channel for @everyone (except: allowed users)",
+					"usage": "lock",
+					"done": "Successfully locked your channel!"
+				},
+				"unlock": {
+					"help": "Unlocks your channel for @everyone (except: disallowed users)",
+					"usage": "unlock",
+					"done": "Successfully unlocked your channel!"
+				},
+				"ghost": {
+					"help": "Hides your channel for @everyone (except: allowed users)",
+					"usage": "ghost",
+					"done": "Successfully ghosted your channel!"
+				},
+				"unghost": {
+					"help": "Unhides your channel for @everyone",
+					"usage": "unghost",
+					"done": "Successfully unghosted your channel!"
+				},
+				"name": {
+					"help": "Control your VC name",
+					"set": {
+						"help": "Set your VC name",
+						"usage": "name set <name>",
+						"name": {
+							"name": "name",
+							"help": "Enter string 1 <> 100 symbols, supports '{name}'"
+						}
+					},
+					"reset": {
+						"help": "Reset your VC name to server's default",
+						"usage": "name reset"
+					},
+					"done": "Successfully changed your channel name to `{value}`!"
+				},
+				"limit": {
+					"help": "Control your VC user limit",
+					"set": {
+						"help": "Set your VC user limit",
+						"usage": "limit set <limit>",
+						"limit": {
+							"name": "limit",
+							"help": "Enter integer 0 <> 99"
+						}
+					},
+					"reset": {
+						"help": "Reset your VC user limit to server's default",
+						"usage": "limit reset"
+					},
+					"done": "Successfully changed your channel limit to `{value}`!"
+				},
+				"claim": {
+					"help": "Claim ownership of channel once owner has left",
+					"usage": "claim",
+					"has_channel": "You already own other VoiceChannel.",
+					"not_custom": "You can't own this VoiceChannel.",
+					"has_owner": "The owner of this channel is in this VoiceChannel.",
+					"done": "You are now owner of this VoiceChannel {channel}!"
+				},
+				"permit": {
+					"help": "Gives the user permission to join your VC",
+					"usage": "permit <@Role | @Member | ...>",
+					"mentions": {
+						"name": "mentions",
+						"help": "Enter Role or Member mention/-s"
+					},
+					"invalid_args": "You didn't mention role/-s or any member/-s.",
+					"not_self": "You can't add yourself or me.",
+					"done": "Successfully permitted {targets} to connect to your channel!"
+				},
+				"reject": {
+					"help": "Withdraw the user permission to join your VC",
+					"usage": "reject <@Role | @Member | ...>",
+					"mentions": {
+						"name": "mentions",
+						"help": "Enter Role or Member mention/-s"
+					},
+					"invalid_args": "You didn't mention role/-s or any member/-s.",
+					"not_self": "You can't remove yourself or me.",
+					"done": "Successfully rejected {targets} from connecting to your channel!"
+				},
+				"perms": {
+					"help": "Manage your VoiceChannel's permissions",
+					"view": {
+						"help": "View VC permissions",
+						"usage": "perms view",
+						"embed": {
+							"title": "Channel permissions for `{channel}`",
+							"field": "**Can View | Can Join | Holder**",
+							"everyone": "Everyone",
+							"roles": "**Roles:**",
+							"members": "**Members:**",
+							"none": "*None*"
+						}
+					},
+					"reset": {
+						"help": "Reset VC permissions to default (sync with category)",
+						"usage": "perms reset",
+						"done": "Successfully synced channel permissions with category!"
+					}
+				}
+			}
+		},
+		"webhook": {
+			"help": "Module for managing webhooks",
+			"list": {
+				"help": "Shows added webhooks to bot's list",
+				"usage": "list [show all webhooks?]",
+				"all": {
+					"name": "all",
+					"help": "Show all webhooks in this server? (default-false)"
+				},
+				"embed": {
+					"title": "Webhooks",
+					"none_found": "*There are no webhooks on this server found.*",
+					"none_registered": "*There are no webhooks registered in bot's DB!*",
+					"value": "Name | ID | Channel"
+				}
+			},
+			"move": {
+				"help": "Move registered webhook to another channel",
+				"usage": "move <webhook ID> <#Channel>",
+				"id": {
+					"name": "id",
+					"help": "Enter ID of registered webhook"
+				},
+				"channel": {
+					"name": "channel",
+					"help": "Choose the channel to move webhook to"
+				},
+				"error_not_registered": "Selected webhook is not registered.",
+				"error_not_found": "Couldn't find webhook by entered ID.",
+				"error_channel": "Couldn't move webhook to that channel.",
+				"done": "Successfully moved webhook `{webhook_name}` to channel `{channel}`!"
+			},
+			"here": {
+				"help": "Move last used webhook to this channel",
+				"usage": "here",
+				"id_null": "There is no last used webhook. Use `/webhook move` to set it.",
+				"error_not_registered": "Selected webhook is not registered.",
+				"error_not_found": "Couldn't find webhook by entered ID.",
+				"error_channel": "Couldn't move webhook to that channel.",
+				"done": "Successfully moved webhook `{webhook_name}` to channel `{channel}`!"
+			},
+			"add": {
+				"help": "Add webhook to the bot's DB",
+				"create": {
+					"help": "Create new webhook to be registered",
+					"usage": "add create <name> [#Channel]",
+					"name": {
+						"name": "name",
+						"help": "Choose name for new webhook"
+					},
+					"channel": {
+						"name": "channel",
+						"help": "Choose channel in which create webhook (default-this channel)"
+					},
+					"invalid_range": "Webhook's name must be in range from 2 to 100 symbols",
+					"done": "Successfully created webhook `{webhook_name}` and registered!"
+				},
+				"select": {
+					"help": "Select existing webhook to be registered",
+					"usage": "add select <webhook ID>",
+					"id": {
+						"name": "id",
+						"help": "Enter ID of existing webhook"
+					},
+					"error_registered": "Selected webhook is already registered in bot's DB!",
+					"error_not_found": "Couldn't find webhook by entered ID.",
+					"done": "Successfully registered webhook `{webhook_name}`!"
+				}
+			},
+			"remove": {
+				"help": "Removes registered webhook",
+				"usage": "remove <webhook ID> [delete it?]",
+				"id": {
+					"name": "id",
+					"help": "Enter ID of registered webhook"
+				},
+				"delete": {
+					"name": "delete",
+					"help": "Also delete webhook? (default-false)"
+				},
+				"error_not_registered": "Selected webhook is not registered.",
+				"error_not_found": "Couldn't find webhook by entered ID.",
+				"error_not_guild": "Selected webhook is not from this server.",
+				"done": "Successfully removed webhook `{webhook_name}`!"
+			}
+		},
+		"moderation": {
+			"no_strikes": "You have no active strikes on server `%s`.",
+			"strikes_embed": "### Active strikes: %d\nNext strike removed in %s",
+			"ban": {
+				"help": "Ban member of this server",
+				"usage": "ban <@User | Tag | ID> [duration] [reason] [proof] [purge messages?] [dm user?]",
+				"user": {
+					"name": "user",
+					"help": "Mention user to be banned from this server"
+				},
+				"time": {
+					"name": "time",
+					"help": "Temporary ban user (Example: 2h, 2w5d (week, day, hour, minute) | 0)"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Ban reason (*none*)"
+				},
+				"proof": {
+					"name": "proof",
+					"help": "Select/Paste image with proofs. Only .png and .jpg/.jpeg are accepted."
+				},
+				"delete": {
+					"name": "delete",
+					"help": "Delete messages past 10 hours? (true)"
+				},
+				"can_appeal": {
+					"name": "can_appeal",
+					"help": "Can user appeal this action? (true)"
+				},
+				"no_reason": "*Not provided*",
+				"not_found": "User not found or input error",
+				"not_self": "You can't ban yourself or me... (for good)",
+				"already_banned": "Mentioned user is already banned on this server.",
+				"already_temp": "Mentioned user is already temporary banned on this server.\n** See `/case %s`**\n\n*You can change that ban duration using `/duration`*",
+				"higher_access": "Mentioned member has higher access than you do.",
+				"ban_abort": "Could not ban mentioned member.",
+				"success": "\uD83D\uDD28 **User was banned %s.**"
+			},
+			"unban": {
+				"help": "Unban banned user on this server",
+				"usage": "unban <Tag | ID> [reason]",
+				"user": {
+					"name": "user",
+					"help": "Enter ID/mention of user to be unbanned in this server"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Unban reason (Default: *none*)"
+				},
+				"no_reason": "*Not provided*",
+				"not_found": "User not found or input error",
+				"not_self": "You can't interact with yourself or me",
+				"no_ban": "Specified user is not banned in this server",
+				"success": "\uD83D\uDE4C **User was unbanned.**"
+			},
+			"kick": {
+				"help": "Kick user from this server",
+				"usage": "kick <@User | Tag | ID> [reason] [proof] [dm user?]",
+				"member": {
+					"name": "member",
+					"help": "Mention member to be kicked from this server"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Kick reason (*none*)"
+				},
+				"proof": {
+					"name": "proof",
+					"help": "Select/Paste image with proofs. Only .png and .jpg/.jpeg are accepted."
+				},
+				"dm": {
+					"name": "dm",
+					"help": "Send user DM informing about the kick? (false)"
+				},
+				"no_reason": "*Not provided*",
+				"not_found": "Member not found or input error",
+				"not_self": "You can't kick yourself or me... (for good)",
+				"kick_abort": "Could not kick mentioned member.",
+				"higher_access": "Mentioned member has higher access than you do.",
+				"success": "\uD83D\uDC5F **User was kicked.**",
+				"sync": {
+					"title": "**Sync this kick?**\nSelect groups bellow.",
+					"value": "Select group/-s",
+					"done": "Kick sync in progress! Result will be posted in log channel."
+				}
+			},
+			"mute": {
+				"help": "Time out member",
+				"usage": "mute <@User | Tag | ID> <duration> [reason] [proof]",
+				"user": {
+					"name": "user",
+					"help": "Mention user to be timed out"
+				},
+				"time": {
+					"name": "time",
+					"help": "Time out duration (Example: 2h, 2w5d (week, day, hour, minute))"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Mute reason (*none*)"
+				},
+				"proof": {
+					"name": "proof",
+					"help": "Select/Paste image with proofs. Only .png and .jpg/.jpeg are accepted."
+				},
+				"no_reason": "*Not provided*",
+				"not_found": "Member not found or input error",
+				"not_self": "You can't mute yourself or me... (for good)",
+				"already_muted": "Mentioned user is already timed out.\n** See `/case %s`**\n\n*You can change duration using `/duration`*",
+				"higher_access": "Mentioned member has higher access than you do.",
+				"abort": "Could not time out mentioned user.",
+				"success": "\uD83D\uDD07 **User was timed out %s.**"
+			},
+			"unmute": {
+				"help": "Unmute a member",
+				"usage": "unmute <@User | Tag | ID> [reason]",
+				"user": {
+					"name": "user",
+					"help": "Mention user which to unmute"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Unmute reason (*none*)"
+				},
+				"no_reason": "*Not provided*",
+				"not_found": "Member not found or input error",
+				"not_muted": "Mentioned user is not muted/timed out.",
+				"abort": "Could not unmute mentioned user.",
+				"success": "\uD83D\uDD0A **User was unmuted.**"
+			},
+			"strike": {
+				"help": "Strike a member",
+				"usage": "strike <@User> <severity> <reason> [proof]",
+				"user": {
+					"name": "user",
+					"help": "Mention user which to strike"
+				},
+				"severity": {
+					"name": "severity",
+					"help": "Select strike's severity",
+					"minor": "1] Minor",
+					"severe": "2] Severe",
+					"extreme": "3] Extreme"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Strike reason"
+				},
+				"proof": {
+					"name": "proof",
+					"help": "Select/Paste image with proofs. Only .png and .jpg/.jpeg are accepted."
+				},
+				"not_found": "Member not found or input error",
+				"not_self": "You can't select yourself or the bot.",
+				"cooldown": "**Strike cooldown!**\nPlease, wait before giving new strike.\n\nRetry %s.",
+				"success": "\uD83D\uDEA9 **User received %s.**",
+				"autopunish_title": "Applying punishment for %d strikes",
+				"autopunish_error": "Unable to apply auto punishment.",
+				"autopunish_higher": "User is higher than bot.",
+				"autopunish_exception": "User is an exception.",
+				"autopunish_reason": "Autopunish: user has %d active strikes",
+				"for": "for"
+			},
+			"delstrike": {
+				"help": "Remove active strike from the user",
+				"usage": "delstrike <@User>",
+				"user": {
+					"name": "user",
+					"help": "Select member"
+				},
+				"not_found": "Could not find specified member.",
+				"is_bot": "Can't select bot.",
+				"no_strikes": "User has no active strikes.",
+				"select_title": "%s has %d active strikes. Select one to delete.",
+				"select_strike": "Select a strike to delete",
+				"done_one": "Deleted strike `%s` for %s.",
+				"button_all": "(All)",
+				"button_title": "Select how many strikes to remove.",
+				"done": "Deleted strike (%d/%d) `%s` for %s."
+			},
+			"clearstrikes": {
+				"help": "Remove all active strikes from the user",
+				"usage": "clearstrikes <@User>",
+				"user": {
+					"name": "user",
+					"help": "Select member"
+				},
+				"not_found": "Could not find specified member.",
+				"is_bot": "Can't select bot.",
+				"no_strikes": "User has no active strikes.",
+				"done": "Deleted %d strikes for %s."
+			},
+			"strikes": {
+				"help": "View active user's strikes",
+				"usage": "strikes [@User]",
+				"user": {
+					"name": "user",
+					"help": "Select user"
+				},
+				"no_perms": "You can't view others strikes",
+				"no_active": "User has no active strikes",
+				"title": "%d strikes for %s (%s)"
+			},
+			"sync": {
+				"help": "Sync moderation action with Group servers",
+				"kick": {
+					"help": "Sync kick with Group servers",
+					"usage": "kick <@User | ID> <Group>",
+					"user": {
+						"name": "user",
+						"help": "Enter user ID or ping"
+					},
+					"group": {
+						"name": "group",
+						"help": "Select Group"
+					},
+					"not_found": "Could not find user by specified ID.",
+					"not_self": "You can't interact with yourself or me.",
+					"is_member": "Could not sync kick, as specified user is inside this server.\nUse `/kick` to kick them firstly.",
+					"no_group": "Couldn't find Group by entered ID.",
+					"embed_title": "Are you sure you want to kick this user from all Group servers?",
+					"button_confirm": "YES",
+					"done": "Kick sync in progress! Results will be posted in logs channel.",
+					"title": "**Kick user from all Group's servers.**"
+				},
+				"no_groups": "This server can't manage any group.",
+				"select": "Select group/-s",
+				"no_user": "Unknown user.",
+				"expired": "This user is not banned permanently or the ban has already expired.\nTry banning this user `/ban`",
+				"ban": {
+					"title": "**Ban this user in all Group's servers?**\n{EMOTE_WARNING} *This does not adds the user to the group's blacklist.*",
+					"done": "Ban sync in progress! Results will be posted in logs channel."
+				},
+				"unban": {
+					"title": "**Unban user in all Group's servers.**\n*Some bans may fail if user is blacklisted.*",
+					"done": "Unban sync in progress! Results will be posted in logs channel."
+				}
+			},
+			"case": {
+				"help": "View information about user moderation",
+				"usage": "case <case ID>",
+				"id": {
+					"name": "id",
+					"help": "Enter case ID"
+				},
+				"not_found": "Could not find case by specified ID"
+			},
+			"reason": {
+				"help": "Change moderation's reason",
+				"usage": "reason <case ID> <reason>",
+				"id": {
+					"name": "id",
+					"help": "Enter case ID"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Enter new reason"
+				},
+				"not_found": "Could not find case by specified ID",
+				"not_active": "Specified case is not active and can't be edited.",
+				"done": "Successfully changed case `#%s` reason to:\n> `%s`"
+			},
+			"duration": {
+				"help": "Change ban/mute duration",
+				"usage": "duration <case ID> <duration>",
+				"id": {
+					"name": "id",
+					"help": "Enter case ID"
+				},
+				"time": {
+					"name": "time",
+					"help": "Enter new duration (Example: 2h, 2w5d (week, day, hour, minute) | 0)"
+				},
+				"not_found": "Could not find case by specified ID",
+				"is_expired": "Specified case has expired or can't be edited.",
+				"done": "Successfully changed case `#%s` duration to:\n> %s"
+			},
+			"group": {
+				"help": "Server Groups management",
+				"create": {
+					"help": "Create new server Group",
+					"usage": "create <name> [appeal server]",
+					"name": {
+						"name": "name",
+						"help": "Enter name for new Group"
+					},
+					"appeal_server": {
+						"name": "appeal_server",
+						"help": "(Optional) Enter appeal server's ID. This server will be excluded from sync bans."
+					},
+					"max_amount": "This server has reached maximum amount of groups which it can be master of (max - 3).",
+					"done": "Group `%s` successfully created!\n\n*Group ID: `%s`*"
+				},
+				"delete": {
+					"help": "Delete existing Group that this server owns",
+					"usage": "delete <Group>",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group"
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"done": "Group `%s` successfully deleted!\n\n*Group ID: `%s`*"
+				},
+				"remove": {
+					"help": "Remove server from Group",
+					"usage": "remove <Group>",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group"
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"no_guilds": "There are no other servers in the selected Group.",
+					"embed_title": "Server to be removed",
+					"embed_value": "Select server from the list below to be removed from Group `%s`.",
+					"done": "Successfully removed server __%s__ from Group `%s`."
+				},
+				"generateinvite": {
+					"help": "Generate new invite code for Group",
+					"usage": "generateinvite",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group"
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"done": "New invite code for the Group `%s` -> `%s`."
+				},
+				"modify": {
+					"help": "Modify Group settings",
+					"usage": "modify <Group> [name] [appeal server]",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group"
+					},
+					"name": {
+						"name": "name",
+						"help": "Enter new name for this Group"
+					},
+					"appeal_server": {
+						"name": "appeal_server",
+						"help": "Enter appeal server's ID. This server will be excluded from sync bans."
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"empty": "No changes.",
+					"embed_title": "Group **%s** updated.",
+					"changed_name": "\n> Renamed from ~~%s~~ to __%s__.",
+					"changed_appeal": "\n> Appeal server ID set to `%s`."
+				},
+				"manage": {
+					"help": "Set whether the server can perform actions in the Group",
+					"usage": "manage <Group> <can manage?>",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group that this server owns"
+					},
+					"manage": {
+						"name": "manage",
+						"help": "Can selected server perform action in this Group? (false)"
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"no_guilds": "There are no other servers in the selected Group.",
+					"is_shared": "Selected Group is set as `Shared`. Unable to add manage permission to any server in this Group.",
+					"embed_title": "Server",
+					"embed_value": "Select server from the list below.",
+					"done": "Successfully set permission to `%s` for server __%s__ in Group `%s`."
+				},
+				"join": {
+					"help": "Join the Group",
+					"usage": "join <Invite>",
+					"invite": {
+						"name": "invite",
+						"help": "Group's invite code"
+					},
+					"no_group": "Couldn't find Group by invite.",
+					"failed_join": "Failed to join the Group.",
+					"is_member": "This server is already member of this Group.",
+					"done": "Joined the Group `%s`!"
+				},
+				"leave": {
+					"help": "Leave the Group",
+					"usage": "leave <Group joined>",
+					"group_joined": {
+						"name": "group_joined",
+						"help": "Select Group in which this server is a member"
+					},
+					"no_group": "Couldn't find requested Group.",
+					"done": "Left the Group `%s`!"
+				},
+				"view": {
+					"help": "View information about servers Group",
+					"usage": "view [Group owned] [Group joined]",
+					"group_owned": {
+						"name": "group_owned",
+						"help": "Select Group that this server owns"
+					},
+					"group_joined": {
+						"name": "group_joined",
+						"help": "Select Group in which this server is a member"
+					},
+					"no_group": "Couldn't find requested server Group.",
+					"not_owned": "This server is not Group's owner (creator).",
+					"embed_title": "Group '%s' (#%s)",
+					"embed_full": "Owner: %s (`%s`)\nGroup size: %d server/-s\nAppeal server ID: `%s`",
+					"embed_short": "Owner: %s (`%s`)\nGroup size: %d server/-s",
+					"embed_invite": "Invite code",
+					"embed_guilds": "Server name | size | ID",
+					"embed_groups": "Group name | #ID",
+					"embed_owned": "Owned Groups",
+					"embed_member": "Joined Groups",
+					"none": "*None*"
+				}
+			},
+			"modlogs": {
+				"help": "View moderation logs for a user",
+				"usage": "modlogs [@User] [page] [only active?]",
+				"user": {
+					"name": "user",
+					"help": "Select user"
+				},
+				"page": {
+					"name": "page",
+					"help": "Page number to view"
+				},
+				"only_active": {
+					"name": "only_active",
+					"help": "Show only active moderations"
+				},
+				"no_perms": "You can't view others logs",
+				"empty": "No logs found for that user.",
+				"title": "Modlogs for %s (Page %d of %d)",
+				"footer": "\uD83D\uDFE5 - Active\n\u2B1B - Inactive\nID: %s",
+				"mod": "**Moderator**: `%s`\n",
+				"duration": "**Duration**: %s\n",
+				"reason": "**Reason**: `%s`\n",
+				"permanent": "permanent"
+			},
+			"modstats": {
+				"help": "View moderation statistics for mod/admin",
+				"usage": "modstats [@User] [start date] [end date] [as text?]",
+				"user": {
+					"name": "user",
+					"help": "Select user"
+				},
+				"start_date": {
+					"name": "start_date",
+					"help": "Enter start date (day/month/year)"
+				},
+				"end_date": {
+					"name": "end_date",
+					"help": "Enter end date (day/month/year)"
+				},
+				"as_text": {
+					"name": "as_text",
+					"help": "Return full table as text?"
+				},
+				"failed_parse": "Failed to parse input date! Use format `day/month/year`.",
+				"wrong_date": "Wrong dates provided (before and after inputs).",
+				"empty": "No statistics for this user.",
+				"failed_image": "Failed to generate image.",
+				"title": "Moderation statistics",
+				"title_report": "Moderation report",
+				"seven": "7 days",
+				"thirty": "30 days",
+				"all": "All time",
+				"mutes": "Mute",
+				"kicks": "Kick",
+				"bans": "Ban",
+				"strikes": "Strike",
+				"game_strikes": "Gm strikes",
+				"roles": "Roles",
+				"total": "Total"
+			},
+			"blacklist": {
+				"help": "Manage group's blacklist",
+				"usage": "blacklist",
+				"view": {
+					"help": "View group's blacklist",
+					"usage": "view <Group> [page]",
+					"group": {
+						"name": "group",
+						"help": "Select Group"
+					},
+					"page": {
+						"name": "page",
+						"help": "Page number to view"
+					},
+					"cant_view": "Can't view selected group. (Not group's owner or manager)",
+					"empty": "No blacklist entries\nPage: `%d`",
+					"title": "Group's `%d` blacklist (Page %d of %d)",
+					"value": "Server: `%s`\nModerator: %s\nReason: `%s`"
+				},
+				"remove": {
+					"help": "Remove user from blacklist",
+					"usage": "remove <Group> <User ID>",
+					"group": {
+						"name": "group",
+						"help": "Select Group"
+					},
+					"user": {
+						"name": "user",
+						"help": "Select user or enter ID"
+					},
+					"cant_view": "Can't view selected group. (Not group's owner or manager)",
+					"no_user": "Provided user is not blacklisted.",
+					"done_user": "Blacklist removed from user %s (%s) in group `%s`."
+				},
+				"expired": "This user is not banned permanently or the ban has already expired.\nTry banning this user `/ban`",
+				"no_groups": "This server can't manage any group.",
+				"title": "**Blacklist this user in group?**\n{EMOTE_WARNING} *If the user is unbanned manually or through other bot, user will be banned again until blacklist is removed.*",
+				"value": "Select group/-s",
+				"no_user": "Unknown user.",
+				"done": "User blacklisted and banned in group's servers. Results will be posted in logs channel."
+			},
+			"purge": {
+				"help": "Deletes up to 60 chat messages in any channel",
+				"usage": "purge [@User] [count]",
+				"user": {
+					"name": "user",
+					"help": "Select user"
+				},
+				"count": {
+					"name": "count",
+					"help": "Enter message count to be deleted (1-60)"
+				},
+				"empty": "Unable to delete any message.",
+				"empty_user": "Unable to delete any message by `%s`.",
+				"done": "Purged %s messages!",
+				"done_user": "Purged %s messages by `%s`!"
+			},
+			"modreport": {
+				"help": "Automatic moderation reports",
+				"usage": "modreport",
+				"setup": {
+					"help": "Setup automatic moderation reports",
+					"usage": "setup <#Channel> <period> <@Roles> [first report]",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel to which send the report"
+					},
+					"interval": {
+						"name": "interval",
+						"help": "How often to create report"
+					},
+					"weekly": "Weekly (7 days)",
+					"biweekly": "Biweekly (14 days)",
+					"monthly": "Monthly (1 month)",
+					"roles": {
+						"name": "roles",
+						"help": "Users with which roles will be included (one or more)"
+					},
+					"first_report": {
+						"name": "first_report",
+						"help": "When to send the first report (UTC time, 'dd/MM/yyyy' or 'dd/MM/yyyy HH:mm' format)"
+					},
+					"no_roles": "No roles provided (use @Role) or more than 4.",
+					"invalid_role": "Invalid role provided.",
+					"failed_parse": "Failed to parse input date! Use format `day/month/year`.",
+					"wrong_date": "Wrong dates provided (next report date is before now).",
+					"done": "Next report will be sent at %s **(UTC)** to channel %s.\nIt will repeat every `%s` days.\nInclude roles: %s"
+				},
+				"delete": {
+					"help": "Delete automatic moderation reports creation",
+					"usage": "delete",
+					"done": "Setup deleted!"
+				}
+			}
+		},
+		"other": {
+			"ping": {
+				"help": "Check the bot's latency",
+				"usage": "ping",
+				"loading": "{EMOTE_TYPING} Ping: ...",
+				"info": "{EMOTE_PING} Ping: {ping} ms",
+				"info_full": "{EMOTE_CLOUD} Websocket: {websocket} ms\n{EMOTE_DOWNLOAD} RestAction: {rest} ms"
+			},
+			"about": {
+				"help": "Get basic information about the bot",
+				"usage": "about [show?]",
+				"show": {
+					"name": "show",
+					"help": "Information will be visible for others (default-true)"
+				},
+				"embed": {
+					"about_title": "About {name}!",
+					"about_value": "Discord bot for moderation, server and role management, logging and more. Written in Java using JDA library.\nDeveloper - **{developer_name}** ({developer_id}).",
+					"bot_info": {
+						"title": "Bot info",
+						"bot_version": "Bot version: `VOTL-{bot_version}`",
+						"library": "Library: [`JDA {jda_version}`]({jda_github}) and [`JDA-Chewtils`]({chewtils_github})"
+					},
+					"commands_title": "Commands",
+					"commands_value": "Use `/help` in any chat to get list of commands.",
+					"links": {
+						"title": "Links",
+						"discord": "[Discord (Support)]({guild_invite})",
+						"github": "[Github]({github_url})",
+						"privacy": "[Privacy Policy]({privacy_url})",
+						"terms": "[Terms of Service]({terms_url})",
+						"translate": "Help translate!"
+					}
+				}
+			},
+			"status": {
+				"help": "Gets bot's status, shard info",
+				"usage": "status [show]",
+				"show": {
+					"name": "show",
+					"help": "Information will be visible for others (default-true)"
+				},
+				"embed": {
+					"stats_title": "Stats",
+					"stats" : {
+						"guilds": "%s Servers",
+						"shard": "Shard %s/%s",
+						"memory": "Memory: %sMb / %sMb"
+					},
+					"shard_title": "This shard",
+					"shard": {
+						"users": "Cached users %s",
+						"guilds": "Cached server %s",
+						"text_channels": "%s Text Channels",
+						"voice_channels": "%s Voice Channels"
+					},
+					"last_restart": "Last restart"
+				}
+			}
+		},
+		"help": {
+			"help": "List all available commands the bot has or description of specific command.",
+			"usage": "help [command | category] [show?]",
+			"show": {
+				"name": "show",
+				"help": "Information will be visible for others (default-true)"
+			},
+			"category": {
+				"name": "category",
+				"help": "Shows commands in selected category"
+			},
+			"command": {
+				"name": "command",
+				"help": "Shows information about selected command"
+			},
+			"command_info": {
+				"docs": "Docs",
+				"no_command": "The provided command doesn't exist!\nMake sure you typed it correctly.",
+				"title": "Command help: {command}",
+				"value": "Category: **{category}**\nOwner command: {owner}\nCan be used in DMs: {guild}\nModule: **{module}**",
+				"help_title": "Description",
+				"usage_title": "Usage options",
+				"usage_value": "```/{usage}```",
+				"usage_child": "```/{base} {usage}```└ {help}",
+				"usage_subvalue": "[] ─ Optional\n<> ─ Required\nA | B ─ Selection"
+			},
+			"command_menu": {
+				"title": "Available commands:",
+				"categories": {
+					"owner": "Owner",
+					"guild": "Server",
+					"webhook": "Webhook",
+					"moderation": "Moderation",
+					"verification": "Verification",
+					"ticketing": "Tickets",
+					"voice": "Voice",
+					"roles": "Roles",
+					"games": "Games",
+					"levels": "Leveling",
+					"other": "Other",
+					"title": "Categories"
+				},
+				"description": {
+					"command_value": "To get more info about a specific command run `/help command:[command]`.\nYou can also run `/help category:[category]` to show the commands of a specific category.",
+					"support_title": "*Additional help*",
+					"support_value": "If you need help with the bot, contact the owner `{owner_name}`."
+				}
+			}
+		},
+		"verification": {
+			"failed_role": "Verification error, failed to issue the role! Report this issue to the server's Administration.",
+			"you_verified": "You are already verified (has role)",
+			"blacklisted": "You are blacklisted from completing verification.",
+			"vfpanel": {
+				"help": "Manage panel for verification module",
+				"usage": "vfpanel",
+				"create": {
+					"help": "Send panel to selected channel",
+					"usage": "create <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel in which to create the panel"
+					},
+					"no_channel": "Provided channel not found or is not of Text type.\nEither lack permission to view it or select other channel.",
+					"no_role": "Verification role is not set!\nUse `/verifyrole`",
+					"continue": "Continue",
+					"done": "Panel created in {channel}!"
+				},
+				"preview": {
+					"help": "Preview current panel messages",
+					"usage": "preview"
+				},
+				"text": {
+					"help": "Set the text for embed panel",
+					"usage": "text",
+					"main": "Main panel text",
+					"description": "Second panel text",
+					"panel": "Setup vfpanel embed text",
+					"done": "Text updated!"
+				},
+				"image": {
+					"help": "Set the image URL for embed panel",
+					"usage": "image <URL>",
+					"image_url": {
+						"name": "image_url",
+						"help": "Image link"
+					},
+					"unknown_url": "Provided URL is incorrect.",
+					"done": "Image link set to [Image](%s)!"
+				}
+			},
+			"verifyrole": {
+				"help": "Manage verification roles",
+				"usage": "verifyrole",
+				"verify": {
+					"help": "Assign role for verification",
+					"usage": "verify <@Role>",
+					"role": {
+						"name": "role",
+						"help": "Select role which will be used for verification"
+					},
+					"no_role": "Provided role not found.",
+					"incorrect_role": "Selected role can't be used.",
+					"done": "Role %s assigned for verification!"
+				},
+				"additional": {
+					"help": "Manage additional roles",
+					"set": {
+						"help": "Set additional roles to be set to user on verification completion",
+						"usage": "additional set <@Role> [@Role] [@Role]",
+						"role1": {
+							"name": "role1",
+							"help": "Select role"
+						},
+						"role2": {
+							"name": "role2",
+							"help": "Select role"
+						},
+						"role3": {
+							"name": "role3",
+							"help": "Select role"
+						},
+						"invalid_args":"You haven't selected any role/-s.",
+						"incorrect_role": "Selected roles can't be added.",
+						"done": "Set %s as additional roles."
+					},
+					"clear": {
+						"help": "Clear all additional roles",
+						"usage": "additional clear",
+						"done": "Cleared all additional roles."
+					},
+					"view": {
+						"help": "View all additional roles",
+						"usage": "additional view",
+						"no_roles": "No additional roles set."
+					}
+				}
+			}
+		},
+		"ticketing": {
+			"embeds": {
+				"role_title": "Getting/Removing roles",
+				"role_value": "🟢 Obtaining a role:\n> Click on the button below and select the desired roles. New ticket will be created for your request.\n\n🔴 Removing a role:\n> Click on the button below and select the roles you want to remove.\n\n📣 Alerts:\n> Click on the buttons below if you want to be notified of events on the server or other.",
+				"button_request": "Request roles",
+				"button_remove": "Remove roles",
+				"other": "__Other role__"
+			},
+			"listener": {
+				"no_assigned": "Can't remove any role that you have.",
+				"request_title": "Select roles you want to request.\n*Clear selection, if you you selected wrong roles.*\nPress 'Other role/-s' if desired role is not present.\n\nWhen done - press 'Continue'.",
+				"request_other": "Other role/-s",
+				"request_clear": "Clear selection",
+				"request_continue": "Continue",
+				"request_selected": "Selected roles:",
+				"request_template": "Select role/-s",
+				"request_none": "You haven't selected any roles.",
+				"request_empty": "Can't request any selected role. You may already have those roles.",
+				"remove_title": "Select roles you want to remove.\n*You will not be able to assign some of the removed roles back.*",
+				"remove_failed": "Couldn't complete your role removal request. See message bellow.",
+				"remove_done": "Roles {roles} removed!",
+				"toggle_failed": "Couldn't add/remove requested role. See message bellow and report it to the server Administration.",
+				"toggle_added": "Successfully assigned {role} to you.",
+				"toggle_removed": "Successfully removed {role} from you.",
+				"ticket_exists": "You already have an opened ticket, please refer to {channel}.",
+				"cant_create": "Failed to crate new ticket. Contact the server Administration.",
+				"created": "Ticket created {channel}.",
+				"close_failed": "Couldn't close this ticket. Report this to bot developer.",
+				"temp_continue": "**%s** requested role/-s require duration to be set. Continue?",
+				"temp_time": "Enter duration for temporal roles",
+				"time_limit": "Provided duration must be between 10m <-> 150d or 0 for infinitely.",
+				"no_member": "User that is requesting roles not found. Maybe, they left this server.",
+				"role_failed": "I was unable to assign roles to the user.",
+				"role_added": "Request approved, roles assigned to user.",
+				"role_dm": "{server}\n> Roles [{roles}] requested in ticket `role-{id}` assigned!\n-{mod}",
+				"role_none": "There aren't any roles that can be assigned. Manually assign user requested roles.",
+				"is_closed": "This ticket is already closed. Assign roles manually or press `Close` button.",
+				"close_request": "Hey! {user}, support have indicated that the ticket is now resolved. Would you like to close the ticket or do you have further questions? React below accordingly.\n\nIf no response {time} the ticket will automatically close itself. To prevent timed close please press cancel.",
+				"close_auto": "Hi! {user}, this ticket has not received a response for some time. Do you want to close the ticket or is your request still unresolved? React below accordingly.\n\nIf no response {time} the ticket will automatically close itself. To prevent timed close please press cancel.",
+				"user_left": "Sadly, the user that created this ticket has left the server. If they rejoin, it will not automatically re-add them.",
+				"claimed": "The ticket has been successfully claimed by {user}.",
+				"unclaimed": "The ticket has been successfully un-claimed.",
+				"delete_countdown": "This ticket will be closed in 5 seconds.",
+				"closed_author": "Closed by ticket's author",
+				"closed_support": "Closed by Support",
+				"timed": {
+					"title": "Enter temporal roles duration",
+					"placeholder": "(0 - forever, Xw - X weeks, Xd - X days, ...)"
+				}
+			},
+			"rolespanel": {
+				"help": "Manage the roles request panel",
+				"usage": "rolespanel",
+				"create": {
+					"help": "Create role requests panel in selected channel",
+					"usage": "create <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel in which to create the panel"
+					},
+					"no_channel": "Provided channel not found or is not of Text type.\nEither lack permission to view it or select other channel.",
+					"empty_roles": "No roles assigned as usable for requesting via tickets.",
+					"done": "Panel created in {channel}!"
+				},
+				"update": {
+					"help": "Update existing role requests panel",
+					"usage": "update <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel in which panel is located"
+					},
+					"no_channel": "Provided channel not found or is not of Text type.\nEither lack permission to view it or select other channel.",
+					"not_found": "Existing panel not found in selected channel",
+					"empty_roles": "No roles assigned as usable for requesting via tickets.",
+					"done": "Panel updated in {channel}!"
+				},
+				"row": {
+					"help": "Update assignable roles row's text placeholder",
+					"usage": "row <row number> <text>",
+					"row": {
+						"name": "row",
+						"help": "Enter row number (1-3)"
+					},
+					"text": {
+						"name": "text",
+						"help": "Enter text which will be shown in role selection placeholder"
+					},
+					"done": "Placeholder text for row `{row}` set to `{text}`."
+				}
+			},
+			"tcount": {
+				"help": "Count how many tickets where accepted by moderator",
+				"usage": "tcount <@User> [start date] [end date]",
+				"user": {
+					"name": "user",
+					"help": "Enter ID/mention the user"
+				},
+				"start_date": {
+					"name": "start_date",
+					"help": "Enter start date (day/month/year)"
+				},
+				"end_date": {
+					"name": "end_date",
+					"help": "Enter end date (day/month/year)"
+				},
+				"failed_parse": "Failed to parse input date! Use format `day/month/year`.",
+				"wrong_date": "Wrong dates provided (before and after inputs).",
+				"done": "Moderator: {user} ({id})\nAccepted role tickets: `{roles}`\nClaimed tickets: `{other}`"
+			},
+			"rolesmanage": {
+				"help": "Manage assignable roles via ticket system",
+				"usage": "rolesmanage",
+				"add": {
+					"help": "Add role",
+					"usage": "add <@Role> <type> [description] [row] [timed?]",
+					"role": {
+						"name": "role",
+						"help": "Select role which will be added to the list"
+					},
+					"type": {
+						"name": "type",
+						"help": "Select role type"
+					},
+					"description": {
+						"name": "description",
+						"help": "Enter role description, which will be shown with the role (ignored for Custom type roles)"
+					},
+					"row": {
+						"name": "row",
+						"help": "Select in which select menu (row) assignable role will be placed"
+					},
+					"timed": {
+						"name": "timed",
+						"help": "Is this role assigned temporary when requested? Prompts mod to enter the role duration."
+					},
+					"no_role": "Role not found or is incorrect.",
+					"cant_interact": "I can't interact with selected role.",
+					"exists": "Role is already managed. Check `/rolesmanage view`",
+					"no_type": "Role type not found.",
+					"rows_max": "All assignable roles rows are full (3x25). Clear any row, to add new roles.",
+					"row_max": "Row is full (25 roles). Clear this row, to add new roles.",
+					"toggle_max": "Maximum toggleable roles managed (5). Clear the list, to add new roles.",
+					"custom_max": "Maximum custom roles managed (25). Clear the list, to add new roles.",
+					"done": "Role %s added to the list as `%s` type role!"
+				},
+				"update": {
+					"help": "Update assignable role data",
+					"usage": "update <@Role> [description] [row] [timed?]",
+					"role": {
+						"name": "role",
+						"help": "Select role which to update"
+					},
+					"description": {
+						"name": "description",
+						"help": "Change role description, enter 'NULL' to clear it"
+					},
+					"row": {
+						"name": "row",
+						"help": "Change in which select menu (row) assignable role will be placed"
+					},
+					"timed": {
+						"name": "timed",
+						"help": "Is this role assigned temporary when requested? Prompts mod to enter the role duration."
+					},
+					"no_role": "Role not found or is incorrect.",
+					"not_exists": "Role is not set as assignable role, use `/roles add` to add it.",
+					"no_options": "No data to be updated for role.",
+					"embed_title": "Updated role's %s data.",
+					"default_description": "\n> Role description cleared to default.",
+					"changed_description": "\n> Role description set to `%s`.",
+					"changed_row": "\n> Changed assignable role's row to `%s`.",
+					"changed_timed": "\n> Role is timed - %s."
+				},
+				"remove": {
+					"help": "Remove role from managed roles list",
+					"usage": "remove <Role ID>",
+					"id": {
+						"name": "id",
+						"help": "Enter ID of the role"
+					},
+					"no_role": "Role with provided ID is incorrect or the role is not managed (in database).",
+					"done": "Role with ID `%s` removed."
+				},
+				"view": {
+					"help": "View managed roles",
+					"usage": "view",
+					"title": "Managed roles",
+					"none": "*None*"
+				}
+			},
+			"ticket": {
+				"help": "Ticket tools",
+				"panels": {
+					"help": "Manage ticket panels",
+					"new": {
+						"help": "Create new embed panel",
+						"usage": "panels new <Embed title> [description] [image URL] [footer]",
+						"embed_title": {
+							"name": "embed_title",
+							"help": "Enter embed's title"
+						},
+						"embed_description": {
+							"name": "embed_description",
+							"help": "Enter embed's description"
+						},
+						"embed_image": {
+							"name": "embed_image",
+							"help": "Enter embed's image (URL link)"
+						},
+						"embed_footer": {
+							"name": "embed_footer",
+							"help": "Enter embed's footer"
+						},
+						"max_panels": "This server has maximum panels created. Delete unused or modify existing.",
+						"image_not_valid": "Provided image URL link is not valid.",
+						"done": "Successfully created new panel!\nTitle: `%s`\nPanel's ID: `%s`"
+					},
+					"modify": {
+						"help": "Modify existing embed panel",
+						"usage": "panels modify <Panel ID> [Embed title] [description] [image URL] [footer]",
+						"panel_id": {
+							"name": "panel_id",
+							"help": "Enter panel's ID"
+						},
+						"embed_title": {
+							"name": "embed_title",
+							"help": "Enter embed's title"
+						},
+						"embed_description": {
+							"name": "embed_description",
+							"help": "Enter embed's description"
+						},
+						"embed_image": {
+							"name": "embed_image",
+							"help": "Enter embed's image (URL link)"
+						},
+						"embed_footer": {
+							"name": "embed_footer",
+							"help": "Enter embed's footer"
+						},
+						"not_found": "Panel by the provided ID not found.",
+						"image_not_valid": "Provided image URL link is not valid.",
+						"changed_title": "Embed's title changed",
+						"changed_description": "Embed's description changed",
+						"changed_image": "Embed's image changed",
+						"changed_footer": "Embed's footer changed",
+						"no_options": "No panel's fields to be updated.",
+						"done": "Updated panel's fields."
+					},
+					"view": {
+						"help": "Display information about selected embed panel, including connected tags",
+						"usage": "panels view <Panel ID>",
+						"panel_id": {
+							"name": "panel_id",
+							"help": "Enter panel's ID"
+						},
+						"not_found": "Panel by the provided ID not found."
+					},
+					"send": {
+						"help": "Send panel's embed into channel",
+						"usage": "panels send <Panel ID> <#Channel>",
+						"panel_id": {
+							"name": "panel_id",
+							"help": "Enter panel's ID"
+						},
+						"channel": {
+							"name": "channel",
+							"help": "Select channel in which to create the panel"
+						},
+						"not_found": "Panel by the provided ID not found.",
+						"cant_send": "I cant send messages in selected channel! Check my permissions or select other channel.",
+						"done": "Panel created in {channel}!"
+					},
+					"delete": {
+						"help": "Delete panel",
+						"usage": "panels delete <Panel ID>",
+						"panel_id": {
+							"name": "panel_id",
+							"help": "Enter panel's ID"
+						},
+						"not_found": "Panel by the provided ID not found.",
+						"done": "Ticket panel with ID `%s` deleted!"
+					}
+				},
+				"tags": {
+					"help": "Manage ticket tags",
+					"create": {
+						"help": "Create new ticket tag",
+						"usage": "tags create <Panel ID> <ticket type> [button text] [emoji] [category] [message] [support Roles] [ticket name] [button style]",
+						"panel_id": {
+							"name": "panel_id",
+							"help": "Enter panel's ID, to which attach this tag"
+						},
+						"tag_type": {
+							"name": "tag_type",
+							"help": "The type of ticket that will be created"
+						},
+						"button_text": {
+							"name": "button_text",
+							"help": "The text show on the button"
+						},
+						"emoji": {
+							"name": "emoji",
+							"help": "Reaction emoji, will shown on the button that user will click on"
+						},
+						"location": {
+							"name": "location",
+							"help": "The category this ticket is created in (ignored for thread-type tags)"
+						},
+						"message": {
+							"name": "message",
+							"help": "This message is sent upon ticket creation (supports {username} / {tag_username})"
+						},
+						"support_roles": {
+							"name": "support_roles",
+							"help": "Support roles that will be able to see this ticket"
+						},
+						"ticket_name": {
+							"name": "ticket_name",
+							"help": "This is the name of the ticket that is created (supports {username})"
+						},
+						"button_style": {
+							"name": "button_style",
+							"help": "The style/color of the button"
+						},
+						"not_found": "Panel by the provided ID not found.",
+						"max_tags": "Used panel has maximum tags attached. Delete unused or modify existing.",
+						"too_many_roles": "Too many support roles provided, maximum is 6.",
+						"done": "Successfully attached new tag to panel with ID `%s`!\nTag's ID: `%s`"
+					},
+					"modify": {
+						"help": "Create new ticket tag",
+						"usage": "tags modify <Tag ID> [ticket type] [button text] [emoji] [category] [message] [support Roles] [ticket name] [button style]",
+						"tag_id": {
+							"name": "tag_id",
+							"help": "Enter tag's ID"
+						},
+						"tag_type": {
+							"name": "tag_type",
+							"help": "The type of ticket that will be created"
+						},
+						"button_text": {
+							"name": "button_text",
+							"help": "The text show on the button"
+						},
+						"emoji": {
+							"name": "emoji",
+							"help": "Reaction emoji, will shown on the button that user will click on"
+						},
+						"location": {
+							"name": "location",
+							"help": "The category this ticket is created in (ignored for thread-type tags)"
+						},
+						"message": {
+							"name": "message",
+							"help": "This message is sent upon ticket creation (supports {username} / {tag_username})"
+						},
+						"support_roles": {
+							"name": "support_roles",
+							"help": "Support roles that will be able to see this ticket"
+						},
+						"ticket_name": {
+							"name": "ticket_name",
+							"help": "This is the name of the ticket that is created (supports {username})"
+						},
+						"button_style": {
+							"name": "button_style",
+							"help": "The style/color of the button"
+						},
+						"not_found": "Tag by the provided ID not found.",
+						"changed_type": "Ticket's type changed",
+						"changed_text": "Button's text changed",
+						"changed_emoji": "Button's emoji changed",
+						"changed_location": "New ticket's channel category changed",
+						"changed_message": "Ticket's message changed",
+						"changed_roles": "Ticket's support roles changed",
+						"changed_name": "Ticket's name changed",
+						"changed_style": "Button's style changed",
+						"no_options": "No tag's values to be updated.",
+						"done": "Updated tag's values."
+					},
+					"view": {
+						"help": "Display information about selected tag",
+						"usage": "tags view <Tag ID>",
+						"tag_id": {
+							"name": "tag_id",
+							"help": "Enter tag's ID"
+						},
+						"not_found": "Tag by the provided ID not found.",
+						"type": "Ticket's type",
+						"location": "Ticket's channel category",
+						"message": "Ticket's message",
+						"roles": "Ticket's support roles",
+						"name": "Ticket's name",
+						"none": "*None*"
+					},
+					"delete": {
+						"help": "Delete tag",
+						"usage": "tags delete <Tag ID>",
+						"tag_id": {
+							"name": "tag_id",
+							"help": "Enter tag's ID"
+						},
+						"not_found": "Tag by the provided ID not found.",
+						"done": "Ticket tag with ID `%s` deleted!"
+					}
+				},
+				"automation": {
+					"help": "Manage automation settings for tickets",
+					"usage": "automation [autoclose time] [author left] [time to reply]",
+					"autoclose": {
+						"name": "autoclose",
+						"help": "Asks ticket's author if ticket can be closed. 0 to disable / hours"
+					},
+					"author_left": {
+						"name": "author_left",
+						"help": "When ticket's author leaves server, should created ticket be closed?"
+					},
+					"reply_time": {
+						"name": "reply_time",
+						"help": "For how long to wait for user to reply in new ticket. 0 to disable wait / hours"
+					},
+					"no_options": "No tickets settings to be updated.",
+					"embed_title": "Updated tickets settings.",
+					"changed_autoclose": "\n> Autoclose time set to %s hour/-s.",
+					"changed_left": "\n> When ticket's author leaves, ticket will be closed: %s.",
+					"changed_reply": "\n> Reply time set to %s hour/-s."
+				},
+				"settings": {
+					"help": "Manage global settings for tickets (to view settings - don't select options)",
+					"usage": "settings [delete pings] [other roles] [role tickets support] [allow close] [transcripts]",
+					"delete_pings": {
+						"name": "delete_pings",
+						"help": "When creating new ticket, delete user/moderator pings?"
+					},
+					"other_roles": {
+						"name": "other_roles",
+						"help": "Allow users to request 'other' roles?"
+					},
+					"role_tickets_support": {
+						"name": "role_tickets_support",
+						"help": "Role requests support roles. Mention role/-s to set or enter 'null' to clear/default."
+					},
+					"allow_close": {
+						"name": "allow_close",
+						"help": "Who can close tickets? (Everyone, helper+ or support)"
+					},
+					"transcripts_mode": {
+						"name": "transcripts_mode",
+						"help": "For which tickets transcript will be created? (All, except roles or none)"
+					},
+					"bad_roles": "No roles provided (use @Role) or more than 3.",
+					"embed_view": "**Ticket settings**",
+					"embed_changes": "**Updated ticket settings**",
+					"changed_delete": "\n> Delete pings after ticket creation: %s",
+					"changed_other": "\n> Allow other roles requests: %s",
+					"cleared_support": "\n> Support roles cleared. (By default, roles with __Mod__ access will be pinged)",
+					"changed_support": "\n> %s will be pinged in role requests.",
+					"changed_close": "\n> Allowed to close tickets: **%s**",
+					"changed_transcript": "\n> Transcripts will be created for **%s** tickets."
+				}
+			},
+			"close": {
+				"help": "Close ticket",
+				"usage": "close",
+				"reason": {
+					"name": "reason",
+					"help": "Close reason"
+				},
+				"not_ticket": "This channel is not a ticket."
+			},
+			"rclose": {
+				"help": "Sends a close request to ticket author",
+				"usage": "rclose",
+				"reason": {
+					"name": "reason",
+					"help": "Close reason"
+				},
+				"not_ticket": "This channel is not a ticket.",
+				"already_requested": "This ticket already requested for closure."
+			},
+			"add": {
+				"help": "Add user to a ticket",
+				"usage": "add <@User>",
+				"user": {
+					"name": "user",
+					"help": "Select user to be added to this ticket"
+				},
+				"not_ticket": "This channel is not a ticket.",
+				"not_self": "You can't add yourself, ticket creator or me.",
+				"failed": "Unable to add selected user.",
+				"done": "Added {user} to this ticket."
+			},
+			"remove": {
+				"help": "Remove user from a ticket",
+				"usage": "remove <@User>",
+				"user": {
+					"name": "user",
+					"help": "Select user to be removed from this ticket"
+				},
+				"not_ticket": "This channel is not a ticket.",
+				"not_self": "You can't remove yourself, ticket creator or me.",
+				"failed": "Unable to add selected user.",
+				"done": "Removed {user} from this ticket."
+			}
+		},
+		"roles": {
+			"role": {
+				"help": "Manage user's roles",
+				"usage": "role",
+				"add": {
+					"help": "Add role/-s to the specified user",
+					"usage": "add <@User> <@Role> [@Role] [@Role]",
+					"user": {
+						"name": "user",
+						"help": "Select user"
+					},
+					"role1": {
+						"name": "role1",
+						"help": "Select role"
+					},
+					"role2": {
+						"name": "role2",
+						"help": "Select role"
+					},
+					"role3": {
+						"name": "role3",
+						"help": "Select role"
+					},
+					"invalid_args": "You haven't selected any role/-s.",
+					"incorrect_role": "Selected roles can't be added.",
+					"not_whitelisted": "Selected role is not whitelisted! Ask Administrator to add it to the list.",
+					"no_member": "Member not found.",
+					"done": "Added roles {roles} to {user}.",
+					"failed": "Unable to add selected roles to the user."
+				},
+				"remove": {
+					"help": "Remove role/-s from the specified user",
+					"usage": "remove <@User> <@Role> [@Role] [@Role]",
+					"user": {
+						"name": "user",
+						"help": "Select user"
+					},
+					"role1": {
+						"name": "role1",
+						"help": "Select role"
+					},
+					"role2": {
+						"name": "role2",
+						"help": "Select role"
+					},
+					"role3": {
+						"name": "role3",
+						"help": "Select role"
+					},
+					"invalid_args": "You haven't selected any role/-s.",
+					"incorrect_role": "Selected roles can't be removed.",
+					"not_whitelisted": "Selected role is not whitelisted! Ask Administrator to add it to the list.",
+					"no_member": "Member not found.",
+					"done": "Removed roles {roles} from {user}.",
+					"failed": "Unable to remove selected roles from the user."
+				},
+				"removeall": {
+					"help": "Remove role from all users in the server",
+					"usage": "removeall <@Role>",
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"no_role": "Provided role not found.",
+					"incorrect_role": "Selected role can't be removed.",
+					"started": "Role removal in progress... {EMOTE_LOADING}",
+					"estimate": "\n*Estimated time for completion `%d` seconds.*",
+					"empty": "No members has this role.",
+					"done": "Removed role `{role}` from {count}/{max} users."
+				},
+				"modify": {
+					"help": "Modify user roles",
+					"usage": "modify <@User>",
+					"user": {
+						"name": "user",
+						"help": "Select user"
+					},
+					"no_user": "Member not found.",
+					"incorrect_user": "Member roles can't be modified.",
+					"no_roles": "No roles to assign or remove.",
+					"button": "Modify roles",
+					"title": "**Modify %s roles.**\nAdd or remove roles below, then press the button to confirm changes.\n*Administrator roles can't be selected.*",
+					"expired": "Selection expired.\nRun command again.",
+					"no_change": "No changes in roles. Modify assigned roles and try again.",
+					"done": "Modified user %s roles.\n%s"
+				}
+			},
+			"temprole": {
+				"help": "Manage temporary roles",
+				"usage": "temprole",
+				"assign": {
+					"help": "Assign to user temporary role",
+					"usage": "assign <@Role> <@User> <duration> [delete?]",
+					"role": {
+						"name": "role",
+						"help": "Select role which to assign"
+					},
+					"user": {
+						"name": "user",
+						"help": "Select user to which assign this role"
+					},
+					"duration": {
+						"name": "duration",
+						"help": "For how long to assign this role (Example: 2h, 2w5d (w-week, d-day, h-hour))"
+					},
+					"delete": {
+						"name": "delete",
+						"help": "Delete this role, after time has passed? (default-false)"
+					},
+					"no_role": "Role not found.",
+					"incorrect_role": "Selected role can't be assigned.",
+					"not_whitelisted": "Selected role is not whitelisted! Ask Administrator to add it to the list.",
+					"no_member": "Member not found.",
+					"incorrect_user": "Selected member can't be assigned role.",
+					"already_set": "Member already assigned this role.",
+					"time_limit": "Provided time must be between 10m <-> 150d.",
+					"done": "Temporary assigned user {user} role {role} until {until}."
+				},
+				"cancel": {
+					"help": "Remove temporary role from user",
+					"usage": "cancel <@Role> <@User>",
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"user": {
+						"name": "user",
+						"help": "Select user"
+					},
+					"no_role": "Role not found.",
+					"no_member": "Member not found.",
+					"not_found": "Selected role is not assigned temporary to this user.",
+					"done": "Canceled temporary role."
+				},
+				"extend": {
+					"help": "Extend temporary role time for user",
+					"usage": "extend <@Role> <@User> <add duration>",
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"user": {
+						"name": "user",
+						"help": "Select user"
+					},
+					"duration": {
+						"name": "duration",
+						"help": "For how long to extend this role (Example: 2h, 2w5d (w-week, d-day, h-hour))"
+					},
+					"no_role": "Role not found.",
+					"no_member": "Member not found.",
+					"not_found": "Selected role is not assigned temporary to this user.",
+					"time_limit": "Provided time must be between 10m <-> 150d.",
+					"done": "Extended temporary role {role} assignment for user {user} until {until}."
+				},
+				"view": {
+					"help": "View all temporary assigned roles",
+					"usage": "view",
+					"empty": "No temporary assigned roles.",
+					"title": "Temporary roles"
+				}
+			}
+		},
+		"games": {
+			"game": {
+				"help": "Setup game controls",
+				"usage": "game",
+				"add": {
+					"help": "Add channel to games list",
+					"usage": "add <@Channel> [max strikes]",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel"
+					},
+					"max_strikes": {
+						"name": "max_strikes",
+						"help": "Enter max amount of strikes user can receive before game ban. (3)"
+					},
+					"already": "This channel is already registered.",
+					"done": "Channel %s registered!\n*Max strikes: `%s`*"
+				},
+				"remove": {
+					"help": "Remove channel from games list",
+					"usage": "remove <@Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel"
+					},
+					"not_found": "This channel is not registered.",
+					"done": "Channel %s was removed from games list!"
+				},
+				"view-channels": {
+					"help": "View games list",
+					"usage": "view-channels",
+					"none": "No registered channels.",
+					"embed_title": "Game channels"
+				},
+				"clear": {
+					"help": "Clear all strikes for user in one game",
+					"usage": "clear <@User> <@Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel"
+					},
+					"user": {
+						"name": "user",
+						"help": "Select user/Enter ID"
+					},
+					"not_found": "This channel is not registered.",
+					"no_user": "User not found",
+					"done": "Cleared games strikes for %s in %s."
+				}
+			},
+			"gamestrike": {
+				"help": "Give a user game strike",
+				"usage": "gamestrike <#Channel> <@User> <reason> [proof]",
+				"channel": {
+					"name": "channel",
+					"help": "Select channel"
+				},
+				"user": {
+					"name": "user",
+					"help": "Mention user/Enter ID"
+				},
+				"reason": {
+					"name": "reason",
+					"help": "Enter strike reason"
+				},
+				"proof": {
+					"name": "proof",
+					"help": "Select/Paste image with proofs. Only .png and .jpg/.jpeg are accepted."
+				},
+				"not_found": "This channel is not registered.",
+				"not_member": "Selected user is not a member of this server or can't be selected.",
+				"cooldown": "**Strike cooldown!**\nPlease, wait before giving new strike.\n\nRetry %s.",
+				"done": "User %s received Game strike in %s."
+			}
+		},
+		"level": {
+			"profile": {
+				"help": "Get user profile",
+				"usage": "profile [@User] [id]",
+				"user": {
+					"name": "user",
+					"help": "Target user, by default - you"
+				},
+				"id": {
+					"name": "id",
+					"help": "Background ID"
+				},
+				"bad_user": "Can't select this user.",
+				"failed": "Failed to create background."
+			},
+			"leaderboard": {
+				"help": "View levels leaderboard",
+				"usage": "leaderboard [type]",
+				"type": {
+					"name": "type",
+					"help": "The leaderboard type"
+				},
+				"embed_title": "Server Exp Leaderboards",
+				"top_text": "TOP %s TEXT \uD83D\uDCAC",
+				"top_voice": "TOP %s VOICE \uD83C\uDF99\uFE0F",
+				"empty": "*Empty...*"
+			},
+			"level_roles": {
+				"help": "Manage leveling roles",
+				"set": {
+					"help": "Set role for achieved level",
+					"usage": "set <level> <@Role> [type]",
+					"level": {
+						"name": "level",
+						"help": "At which level to assign those roles"
+					},
+					"role": {
+						"name": "role",
+						"help": "Select role"
+					},
+					"type": {
+						"name": "type",
+						"help": "For which type of level to assign those roles"
+					},
+					"invalid_args": "You haven't selected any role.",
+					"incorrect_role": "Selected role can't be used.",
+					"limit": "Level roles limit reached (max 40)!",
+					"done": "Role %s will be assigned at level `%s`."
+				},
+				"remove": {
+					"help": "Remove roles from level",
+					"usage": "remove <level>",
+					"level": {
+						"name": "level",
+						"help": "Remove role from which level"
+					},
+					"done": "Cleared roles for `%s` level."
+				},
+				"view": {
+					"help": "View all levels",
+					"usage": "view",
+					"empty": "No roles set.",
+					"title": "Level roles"
+				}
+			},
+			"level_exempt": {
+				"help": "Manage exempt channels for leveling",
+				"add": {
+					"help": "Add channel to leveling exemption",
+					"usage": "add <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel"
+					},
+					"invalid_args": "You haven't selected any role.",
+					"limit": "Exempt channels limit reached (max 40)!",
+					"already": "This channel is already exempt.",
+					"done": "Channel %s added to exemption."
+				},
+				"remove": {
+					"help": "Remove channel from leveling exemption",
+					"usage": "remove <#Channel>",
+					"channel": {
+						"name": "channel",
+						"help": "Select channel to remove"
+					},
+					"not_exempt": "This channel is not exempt.",
+					"done": "Channel %s removed from exemption."
+				},
+				"clear": {
+					"help": "Remove all exempt channels",
+					"usage": "clear",
+					"done": "Cleared all channels."
+				},
+				"view": {
+					"help": "View all exemptions",
+					"usage": "view",
+					"empty": "No exemptions set.",
+					"title": "Exempt channels"
+				}
+			}
+		}
+	},
+	"menus": {
+		"report": {
+			"name": "Report message",
+			"done": "Message has been reported to the server moderation!",
+			"title": "Message reported",
+			"user": "User",
+			"channel": "Channel",
+			"complain": "Complained",
+			"content": "Content",
+			"link": "Open message",
+			"delete": "Delete message",
+			"deleted": "Message deleted by {name}!"
+		},
+		"modlogs": {
+			"name": "Moderation logs",
+			"full": "*To view full logs, use `/modlogs`.*"
+		},
+		"activelogs": {
+			"name": "Active moderations",
+			"full": "*To view full logs, use `/modlogs`.*"
+		}
+	}
+}
