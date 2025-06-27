@@ -1,5 +1,5 @@
 @echo off
-@title VOTL Windows Launcher
+@title FABI-1 Windows Launcher
 
 setlocal enabledelayedexpansion
 set Looping=False
@@ -8,7 +8,7 @@ cls
 
 :START
 echo.
-echo Welcome to VOTL's window launcher
+echo Welcome to FABI-1's window launcher
 echo Please select an option to begin:
 echo.
 echo    1. Start the bot normally
@@ -37,7 +37,7 @@ set Looping=True
 goto START_BOT
 
 :START_BOT
-java -Dfile.encoding=UTF-8 -jar VOTL.jar --no-colors
+java -Dfile.encoding=UTF-8 -jar FABI-1.jar --no-colors
 if !Looping! == False (
     goto START
 )
