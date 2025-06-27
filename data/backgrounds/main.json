@@ -1,0 +1,40 @@
+{
+  "themes": [
+    {
+      "id": 0,
+      "name": "Discord Dark Theme",
+      "image": null,
+      "colors": {
+        "background": "#2f3136",
+        "mainText": "#e2e2e5d9",
+        "secondaryText": "#a6a6a6d9",
+        "experienceBackground": "#20222560",
+        "experienceForeground": "#7289da66",
+        "experienceSeparator": "#8c90e2b3"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Discord Light Theme",
+      "image": null,
+      "colors": {
+        "background": "#f3f3f3",
+        "mainText": "#2a2a2acc",
+        "secondaryText": "#626262cc",
+        "experienceBackground": "#747f8d60",
+        "experienceForeground": "#7289da66",
+        "experienceSeparator": "#8c90e2b3"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mountain Ranges",
+      "image": "mountain-range.jpg",
+      "colors": {
+        "background": "#373746",
+        "mainText": "#e2e2dcd9",
+        "secondaryText": "#a6a6a6d9"
+      }
+    }
+  ]
+}
