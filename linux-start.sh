@@ -2,7 +2,7 @@
 
 welcome() {
     echo ""
-    echo "Welcome to VOTL's Linux launcher"
+    echo "Welcome to FABI-1's Linux launcher"
     echo "Please select an option to begin:"
     echo ""
     echo "   1. Start the bot normally"
@@ -40,7 +40,7 @@ startLoop() {
 }
 
 startApplication() {
-    java -jar VOTL.jar
+    java -jar fABI-1.jar
 
     if [ "$1" != "false" ]; then
         welcome
